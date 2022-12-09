@@ -9,6 +9,7 @@ spec:
     chart: argocddotnet
     repoURL: https://github.com/bkabiah/ArgoCD_proj.git
     targetRevision: HEAD
+    path: dev
   
   destination:
     server: "https://kubernetes.default.svc"
